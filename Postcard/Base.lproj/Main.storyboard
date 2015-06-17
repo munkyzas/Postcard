@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJv-QV-UU7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="604.5" y="301"/>
+            <point key="canvasLocation" x="592.5" y="309"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -103,6 +103,24 @@
                                     <rect key="frame" x="196" y="120" width="102" height="82"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RI-ug-CkT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="143" width="150" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2Y-0Y-LDm">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="143" width="150" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +130,8 @@
                                 <exclude reference="2OU-hV-Ryz"/>
                                 <exclude reference="tHv-7W-t5W"/>
                                 <exclude reference="MyA-v5-E6a"/>
+                                <exclude reference="5RI-ug-CkT"/>
+                                <exclude reference="R2Y-0Y-LDm"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +141,8 @@
                                 <include reference="2OU-hV-Ryz"/>
                                 <include reference="tHv-7W-t5W"/>
                                 <include reference="MyA-v5-E6a"/>
+                                <include reference="5RI-ug-CkT"/>
+                                <include reference="R2Y-0Y-LDm"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +151,7 @@
                         <outlet property="enterNameTextField" destination="YVl-yf-Y6K" id="8P3-iy-TSj"/>
                         <outlet property="mailButton" destination="2OU-hV-Ryz" id="RCh-eN-wA0"/>
                         <outlet property="messageLabel" destination="tHv-7W-t5W" id="5Aa-2L-KAS"/>
+                        <outlet property="nameLabel" destination="R2Y-0Y-LDm" id="oeT-yI-5tc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
